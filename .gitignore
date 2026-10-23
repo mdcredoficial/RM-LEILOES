@@ -46,3 +46,4 @@ scripts/setup-prime-db.js
 /rodrigo.jpeg
 /david.jpeg
 /rmleiloes.jpeg
+.env*
