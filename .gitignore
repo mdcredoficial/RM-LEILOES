@@ -1,0 +1,48 @@
+node_modules
+.env
+.env.*
+!.env.example
+npm-debug.log*
+fullpage_snapshot_*.png
+.vercel
+Captura de tela de *.png
+whatsapp1.png
+!public/whatsapp1.png
+
+# Arquivos privados e cópias locais
+backups/
+docsigilo.txt
+*.pem
+*.key
+
+# Arquivos recebidos na raiz que não fazem parte da aplicação
+/*.pdf
+/*.exe
+/*.deb
+/*.mp4
+/*.jpg
+/*.jpeg
+/*.png
+
+# Materiais de migração mantidos apenas nesta cópia local
+COMO-RESTAURAR-SUPABASE.md
+scripts/restaurar-novo-supabase.mjs
+scripts/setup-prime-db.js
+.publicacao/
+
+# Materiais locais sem relação com a aplicação
+/*.ogg
+/*.mp3
+/*.PNG
+/OUTROS VEICULOS/
+/veiculos/
+/public/agrosuri.png
+/public/sobrenonovo.png
+
+# Materiais de referência fornecidos para esta cópia
+/novocontrato.pdf
+/gabriel.jpeg
+/elias.jpeg
+/rodrigo.jpeg
+/david.jpeg
+/rmleiloes.jpeg
