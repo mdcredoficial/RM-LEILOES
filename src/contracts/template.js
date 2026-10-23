@@ -90,7 +90,7 @@ export const renderAcquisitionContractHtml = (contract) => {
     <article class="contract-document">
       <header class="contract-document__header">
         <div class="contract-document__brand">
-          <img src="/logormleiloes.jpeg" alt="${brandName}" />
+          <img src="/rmleiloes.jpeg" alt="${brandName}" />
           <div>
             <strong>${brandName}</strong>
             <span>VEÍCULOS E MAQUINÁRIOS</span>
