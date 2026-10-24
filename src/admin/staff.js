@@ -16,7 +16,7 @@ export const listStaff = async () => (await pool.query("select id,full_name,emai
 export const listPublicStaffContacts = async () => (await pool.query(`
   select id, full_name, whatsapp, photo_url
   from public.app_users
-  where role='employee' and is_active=true and nullif(trim(whatsapp),'') is not null
+  where role in ('employee','admin') and is_active=true and nullif(trim(whatsapp),'') is not null
   order by full_name asc
 `)).rows;
 export const findActiveStaffById = async id => {
